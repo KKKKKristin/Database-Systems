@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Leavey Library",
+    "popularity": 88,
+    "loc": [-118.2830555556, 34.0216666667]
+  },
+  {
+    "name": "Doheny Library",
+    "popularity": 55,
+    "loc": [-118.2841666667, 34.0202777778]
+  },
+  {
+    "name": "Library for I & PA",
+    "popularity": 30,
+    "loc": [-118.2836111111, 34.0213888889]
+  },
+  {
+    "name": "Cinematic Art Dept",
+    "popularity": 30,
+    "loc": [-118.2863888889, 34.0236111111]
+  },
+  {
+    "name": "Anneburg Dept",
+    "popularity": 50,
+    "loc": [-118.2866666667, 34.0222222222]
+  },
+  {
+    "name": "Sol Price School of Public Policy",
+    "popularity": 90,
+    "loc": [-118.2833333333, 34.0197222222]
+  },
+  {
+    "name": "Everybody's Kitchen dining hall",
+    "popularity": 66,
+    "loc": [-118.2822222222, 34.0213888889]
+  },
+  {
+    "name": "Pandas Express",
+    "popularity": 70,
+    "loc": [-118.2841689048, 34.0216717730]
+  },
+  {
+    "name": "Annenberg Cafe",
+    "popularity": 20,
+    "loc": [-118.2872222222, 34.0208333333]
+  },
+  {
+    "name": "Prentiss Memorial Fountain",
+    "popularity": 7,
+    "loc": [-118.2847222222, 34.0205555556]
+  },
+  {
+    "name": "Pasty and Forrest Shumway Fountain",
+    "popularity": 12,
+    "loc": [-118.2850000000, 34.0202777778]
+  },
+  {
+    "name": "Leavey Library Reflection Pool",
+    "popularity": 15,
+    "loc": [-118.2847643551587, 34.02500228028197]
+  }
+]
