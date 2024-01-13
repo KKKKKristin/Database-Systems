@@ -1,3 +1,3 @@
 # Database-Systems
 
-Homeworks for Data quering, Spatial data Analysis/Visualization, MongoDB, Data Mining, Machine Learning
+Homeworks for Database Systwms: Oracle, MySQL, NoSQL, Spatial data Analysis/Visualization, MongoDB, Data Mining, Machine Learning
