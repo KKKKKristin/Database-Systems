@@ -1,0 +1,18 @@
+
+Latitude			Longitude	
+34.0216666667 		-118.2830555556	Leavey Library
+34.0202777778		-118.2841666667 Doheny Library
+34.0213888889		-118.2836111111 Library for International and Public Affairs
+34.0236111111 		-118.2863888889	Cinematic Art Dept
+34.0222222222 		-118.2866666667	Anneburg Dept
+34.0197222222  		-118.2833333333	Sol Price School of Public Policy
+34.0213888889		-118.2822222222	Everybody's Kitchen dining hall
+34.0216717730	    -118.2841689048	Pandas Express
+34.0208333333		-118.2872222222	Annenberg Cafe
+34.0205555556 		-118.2847222222	Prentiss Memorial Fountain
+34.0202777778 		-118.2850000000	Pasty and Forrest Shumway Fountain
+34.0213888889		-118.2827777778	Leavey Library Reflection Pool
+
+34.0330555556		-118.2802777778  Home
+
+34.0205555556    	-118.2852777778  tommy trojan

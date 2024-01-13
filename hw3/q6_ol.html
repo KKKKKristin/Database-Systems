@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css"
+          type="text/css">
+    <style>
+        .map {
+            height: 800px;
+            width: 100%;
+        }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+    <title>Geospatial Data Handling</title>
+</head>
+
+<body>
+<h2 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Geospatial Data Handling</h2>
+<div id="map" class="map"></div>
+<script type="text/javascript">
+        if (typeof (Storage) !== "undefined") {
+            localStorage.setItem('leavey_lib', '-118.2830555556, 34.0216666667');
+            localStorage.setItem('doheny_lib', '-118.2841666667, 34.0202777778');
+            localStorage.setItem('i&pa_lib', '-118.2836111111, 34.0213888889');
+            localStorage.setItem('evk', '-118.2822222222, 34.0213888889');
+            localStorage.setItem('pandas_express', '-118.2841689048, 34.0216717730');
+            localStorage.setItem('annenberg_cafe', '-118.2872222222, 34.0208333333');
+            localStorage.setItem('prentiss', '-118.2847222222, 34.0205555556');
+            localStorage.setItem('pasty_forrest', '-118.2850000000, 34.0202777778');
+            localStorage.setItem('leavey_pool', '-118.2827777778, 34.0213888889');
+            localStorage.setItem('cinematic', '-118.2863888889, 34.0236111111');
+            localStorage.setItem('annenberg', '-118.2866666667, 34.0222222222');
+            localStorage.setItem('public_policy', '-118.2833333333, 34.0197222222');
+            localStorage.setItem('home', '-118.2802777778, 34.0330555556');
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+        }
+
+        function getLonLat(key) {
+            var v1 = localStorage.getItem(key).split(', ')[0];
+            var v2 = localStorage.getItem(key).split(', ')[1];
+            let lonlat = [];
+            lonlat.push(v1);
+            lonlat.push(v2);
+            return lonlat;
+        }
+
+        var Style = new ol.style.Style({
+            image: new ol.style.Circle({
+                radius: 10,
+                fill: new ol.style.Fill({
+                    color: '#000000'
+                })
+            })
+        });
+
+        function createLayer(key) {
+            return new ol.layer.Vector({
+                source: new ol.source.Vector({
+                    features: [
+                        new ol.Feature({
+                            geometry: new ol.geom.Point(ol.proj.fromLonLat(getLonLat(key)))
+                        })
+                    ]
+                }),
+                style: Style
+            });
+        }
+
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                })
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat(getLonLat('leavey_lib')),
+                zoom: 15
+            })
+        });
+
+        const locations = ['leavey_lib', 'doheny_lib', 'i&pa_lib', 'evk', 'pandas_express', 'annenberg_cafe', 'prentiss', 'pasty_forrest', 'leavey_pool', 'cinematic', 'annenberg', 'public_policy', 'home'];
+        console.log(locations);
+        locations.forEach((x, i) => map.addLayer(createLayer(x)));
+
+</script>
+<div id="result" class="result"></div>
+</body>
+
+</html>

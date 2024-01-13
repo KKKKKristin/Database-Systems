@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <Style id="z1">
+      <IconStyle>
+        <Icon>
+          <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    
+    <Folder>
+      <name>Libraries</name>
+      <Placemark>
+        <name>Leavey Library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2830555556,34.0216666667</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Doheny Library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2841666667,34.0202777778</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Library for IPA</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2836111111,34.0213888889</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Eateries</name>
+      <Placemark>
+        <name>Everybody's Kitchen dining hall</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2822222222,34.0213888889</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Pandas Express</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2841689047574,34.02167177296618</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Annenberg Cafe</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2872222222,34.0208333333</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Waterworks</name>
+      <Placemark>
+        <name>Prentiss Memorial Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2847222222,34.0205555556</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Pasty and Forrest Shumway Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2850000000,34.0202777778</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Leavey Library Reflection Pool</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2827777778,34.0213888889</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Department Buildings</name>
+      <Placemark>
+        <name>Cinematic Arts Dept</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2863888889,34.0236111111</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Annenberg Dept</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2866666667,34.0222222222</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>PublicPolicyDept</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+          <coordinates>-118.2833333333,34.0197222222</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <Placemark>
+      <name>Home</name>
+      <styleUrl>#z1</styleUrl>
+      <Point>
+        <coordinates>-118.2802777778,34.0330555556</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+            <name>USC Convex Hull</name>
+            <Style>
+                <PolyStyle>
+                    <color>a00000ff</color>
+                    <outline>0</outline>
+                </PolyStyle>
+            </Style>
+            <Polygon>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+                            -118.2833333333,34.0197222222,100
+                            -118.2872222222,34.0208333333,100
+                            -118.2863888889,34.0236111111,100
+                            -118.2802777778,34.0330555556,100
+                            -118.2822222222,34.0213888889,100
+                            -118.2833333333,34.0197222222,100
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <name>Home - Cinematic Arts Dept</name>
+            <Style>
+                <LineStyle>
+                    <color>fff8ff2e</color>
+                    <width>3</width>
+                </LineStyle>
+            </Style>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.2802777778,34.0330555556,0,-118.2863888889,34.0236111111,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Home -  Leavey Library</name>
+            <Style>
+                <LineStyle>
+                    <color>fff8ff2e</color>
+                    <width>3</width>
+                </LineStyle>
+            </Style>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.2802777778,34.0330555556,0,-118.2830555556,34.0216666667,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Home -  EVK</name>
+            <Style>
+                <LineStyle>
+                    <color>fff8ff2e</color>
+                    <width>3</width>
+                </LineStyle>
+            </Style>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                     -118.2802777778,34.0330555556,0,-118.2822222222,34.0213888889,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Home -  Panda Express</name>
+            <Style>
+                <LineStyle>
+                    <color>fff8ff2e</color>
+                    <width>3</width>
+                </LineStyle>
+            </Style>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.2802777778,34.0330555556,0,-118.2841689048,34.0216717730,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+
+  </Document>
+</kml>
